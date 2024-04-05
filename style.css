@@ -1,0 +1,379 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* position: relative; */
+}
+
+.logo img{
+    width: 120%;
+    border-radius:150px;
+    /* margin-left: 150px; */
+    position: relative;
+    left: 100px;
+    /* border: 5px solid white; */
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+.nav-left{
+   width: 30%;
+   margin-bottom: 10px;
+  
+  
+
+}
+.nav-right{
+width: 70%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.nav-right li{
+list-style: none;
+padding: 20px;
+}
+.nav-right li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    /* font-weight: bold; */
+    font-family: 'Roboto', sans-serif;
+    /* font-family:  */
+
+    
+}
+.nav-right li a:hover{
+    color: gray;
+}
+.getquote{
+    color: blue;
+    background-color: white;
+    padding: 20px 40px;
+    margin: 0px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.getquote:hover{
+    color: gray;
+
+}
+.background{
+    background: rgba(0, 0,0, 0.7)url("../img/bg-img7.jpg");
+    background-size: cover;
+ 
+    
+}
+.line{
+
+    border-bottom: 0.1px solid gray;
+    opacity: 0.99;
+}
+
+.sectionOne{
+    display: flex;
+    height: 85vh;
+    justify-content: center;
+    
+}
+.leftpart{
+    width: 50%;
+   margin-top: 200px;
+   margin-left: 220px;
+   color: white;
+   /* font-family: 'Roboto', sans-serif; */
+  
+
+}
+.we{
+    font-size: 16px;
+    margin-bottom: 30px;
+
+}
+.provide{
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    width:600px; 
+    
+}
+.animation{
+    display: flex;
+    margin-bottom: 30px;
+}
+    .word-transition {
+        font-size: 60px;
+        animation: changeWord 9s infinite; /* 3 seconds per word, 3 words */
+      }
+      
+      @keyframes changeWord {
+        0%, 100% { opacity: 0; }
+        11%, 33% { opacity: 1; }
+        44%, 55% { opacity: 0; }
+        66%, 88% { opacity: 1; }
+      }
+.premium{
+    font-size: 22px;
+    width: 600px;
+    margin-bottom: 30px;
+}
+.play{
+    display: flex
+}
+.btn{
+    font-size: 18px;
+    padding: 16px 22px;
+    background-color: white;
+    color: blue;
+}
+.watch{
+    font-size: 26px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.playbtn{
+    display: flex;
+    margin-left: 40px;
+
+}
+.rightpart{
+    width: 50%;
+    margin-top: 200px;
+    margin-left: 150px;
+    
+ 
+}
+form{
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.detail{
+    margin-bottom: 10px;
+  
+}
+.get{
+    font-size: 28px;
+    margin-bottom: 10px;
+   
+    
+
+}
+
+.let{
+    font-size:20px;
+    color: rgba(0, 0, 0, 0.721);
+    margin-bottom: 15px;
+
+}
+.name{
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: left
+}
+input{
+    padding: 14px 38px;
+    border-color: rgba(128, 128, 128, 0.13);
+   
+
+}
+.btn1{
+    font-size: 18px;
+    padding: 14px 20px;
+    background-color:blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+    
+
+
+.sectionTwo{
+    height: 70vh;
+    background-color: rgba(128, 128, 128, 0.293);
+  
+
+    
+    
+}
+ .center{
+    max-width: 60%;
+    margin: auto;
+ 
+ }
+    
+ .firstboxline , .secodboxline{
+    display: flex;
+   
+ }
+   
+   
+
+.box1{
+    height: 205px;
+    width: 500px;
+    background-color: white;
+    margin: 20px 8px;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 2s ease-in-out;
+}
+.box1:hover{
+    height: 250px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+ 
+
+}
+
+  
+     .imgSvg{
+       
+        text-align: center;
+        background-color: rgba(0, 0, 255, 0.662);
+        padding: 12px;
+        border-radius: 50px; 
+        color: white;
+     }
+      .webdesign{
+         font-size: 30px;
+        margin-top: 10px;
+         
+     }
+     .wetext{
+         font-size: 18px;
+         margin-top: 10px;
+         text-align: center;
+       
+       
+     } 
+     .sectionthird{
+        display: flex;
+        height: 300px;
+      justify-content: center;
+      align-items: center;
+        color: white;
+        justify-content: space-around;
+      
+     }
+     .person {
+         color: white;
+        
+   
+     }
+     .personNumber{
+         font-size: 30px;
+         margin-bottom: 10px;
+         
+     }
+     .personText{
+         font-size: 20px;
+         text-align: center;
+         /* margin-right: 250px; */
+     }
+
+     .sectionFour{
+         display: flex;
+            margin: 100px 200px;
+            /* height: 700px; */
+          justify-content: center;
+     }
+     .img2 img{
+         width: 700px;
+         border-radius: 20px;
+     }
+     .fourLeft{
+         width: 50%;
+         justify-content: center;
+         align-items: center;
+         margin-right: 20px;
+         /* margin:  30px 150px; */
+
+     }
+     .fourRight{
+         width: 50%;
+       margin-left: 50px;
+         
+     }
+     .who{
+         font-size: 20px;
+         color: blue;
+     }
+     .level{
+         font-size: 38px;
+     }
+  
+     .next{
+         color: blue;
+     }
+     .long{
+   
+        margin-top: 8px;
+         color: gray;
+         font-size: 20px;
+     }
+     .mission{
+         font-size: 20px;
+         margin-top: 10px;
+         margin-left: 20px;
+     }
+     .below{
+         margin-top: 10px;
+     }
+     .sectionFive{
+        display: flex;
+           margin: 100px 200px;
+           /* height: 700px; */
+           margin-top: 10px;
+     }
+     .level1{
+        font-size: 30px;
+    }
+ .sectionsix{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+     height: 800px;
+ }
+ .images{
+     display: flex;
+    margin-top: 50px;
+ }
+.images img{
+    margin: 20px;
+    border: 1px solid black;
+
+ }
+ .teams{
+     font-size: 50px;
+     margin-top: 10px;
+ }
+ .members{
+     font-size: 24px;
+     width: 50%;
+     text-align: center;
+     margin-top: 10px;
+     font-size: rgba(0, 0, 0, 0.158);
+ }
