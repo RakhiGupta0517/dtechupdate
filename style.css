@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 .logo{
     width: 20%;
     display: flex;
@@ -591,9 +594,9 @@ margin-top: 30px;
     background-color: rgba(128, 128, 128, 0.218)
    
 }
-.tenimg{
+/* .tenimg{
    
-}
+} */
 .tenimg img{
     width:350px;
     height: 200px;
@@ -613,3 +616,175 @@ margin-top: 30px;
     display: flex;
   
 }
+.sectioneleven{
+  
+    background-color: rgba(127, 255, 212, 0.178);
+    height: 1700px;
+}
+.elevenpart{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  
+}
+.who{
+    margin-top: 100px;
+}
+.getintouchleft{
+
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.elevenleftpart form{
+    height: 500px;
+    width: 800px;
+
+}
+span.fullname ,.sunew{
+    margin: 10px;
+}
+.howhelp{
+    margin: 10px;
+}
+
+  .check{
+      display: flex;
+      margin: 10px;
+    
+  }
+  .agree{
+      margin-left: 20px;
+      font-size: 18px;
+      color: rgba(0, 0, 0, 0.54);
+      margin-bottom: 20px;
+  }
+  .elevenrightpart{
+      margin-left: 100px;
+      
+  }
+  .boxform{
+      margin: 20px;
+      width: 300px;
+      height: 100px;
+      padding: 32px;
+      background-color: white;
+      display: flex;
+  }
+ .fon{
+      color: white;
+     background-color: blue;
+     padding: 10px;
+     width: 50px; 
+     height: 40px;
+     border-radius: 10px;
+     text-align: center;
+ }
+ .formtext{
+     font-size: 20px;
+     margin-left: 20px;
+ }
+ .callus{
+     font-weight: bold;
+     margin-bottom: 10px;
+
+ }
+ .get get2{
+     font-weight: bolder;
+ }
+ .mappart{
+    margin: 100px 240px;
+
+ }
+  
+ .mappart iframe{
+    width: 100%;
+    margin: auto;
+     justify-content: center;
+ }
+ .sectiontwelve{
+     height: 400px;
+   
+     display: flex;
+     justify-content:center;
+     align-items: center;
+     
+     background-color: rgba(0, 0, 0, 0.944)
+ }
+ .below{
+     display: flex;
+    /* width: 70%; */
+     
+ }
+ .dnp{
+    display: flex;
+    flex-direction: column;
+ }
+ .twelicon{
+     color: blue;
+    
+ }
+ .twelicon i{
+    background-color: white;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+ .newcom{
+     color: white;
+     font-size: 20px;
+ }
+ .company p{
+     margin-bottom: 5px;
+ }
+ .aboutcompany{
+     font-size: 22px;
+     margin-bottom: 10px;
+     font-weight: bolder;
+ }
+ ul.support {
+     margin-left: 150px;
+   
+ }
+ .support li{
+    
+     list-style: none;
+     text-decoration: none;
+     margin-bottom: 10px;
+    
+ }
+ .support li a{
+     color: white;
+     font-size: 20px;
+     text-decoration: none;
+ 
+ }
+ .supp{
+     font-size: 24px;
+     color: white;
+     font-weight: bolder;
+     margin-bottom: 20px;
+   
+ }
+ .address{
+     color: white;
+     margin-left: 150px;
+
+ }
+ .firstadd{
+     display: flex;
+     margin: 20px;
+ }
+ .firstadd i{
+     margin-right: 20px;
+     color: blue;
+ }
+ .con{
+     font-size: 20px;
+ }
