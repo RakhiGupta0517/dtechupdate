@@ -619,7 +619,7 @@ margin-top: 30px;
 .sectioneleven{
   
     background-color: rgba(127, 255, 212, 0.178);
-    height: 1700px;
+    /* height: 1700px; */
 }
 .elevenpart{
 
@@ -788,3 +788,21 @@ span.fullname ,.sunew{
  .con{
      font-size: 20px;
  }
+
+/* about us part */
+.about{
+margin-top: 80px;
+font-size: 80px;
+color: white;
+font-family: cursive;
+font-style: italic;
+
+
+}
+.about1{
+    height: 40vh;
+    
+    /* display: flex;
+position: sticky;
+    top: 100px; */
+}
